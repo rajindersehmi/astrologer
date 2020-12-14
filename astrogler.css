@@ -31,7 +31,7 @@ text-decoration: none;
 color: #37a4dd;
 }
 /*.navbar-nav{
-margin-left: 110px;
+margin-left: 110px
 }*/
 li.nav-item::after {
 position: absolute;
