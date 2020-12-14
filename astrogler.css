@@ -994,3 +994,9 @@ nav.navbar.navbar-expand-lg.sticky-top{
 button.navbar-toggler.bg-light:hover {
     background-color: #ff7e00 !important;
 }
+button.navbar-toggler.bg-light.collapsed:focus{
+    background-color: #ff7e00 !important;
+}
+button.navbar-toggler.bg-light:focus{
+  background-color: #ff7e00 !important;
+}
