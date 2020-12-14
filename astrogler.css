@@ -852,7 +852,7 @@ background: #37a4dd;
 }
 .navbar-toggler{
   position: relative;
-  left: 90%;
+  left: 85%;
 }
 .navbar .navbar-toggler-icon{
   background-image: url(./nav-toggle.svg);
@@ -921,6 +921,28 @@ background: #37a4dd;
   li.nav-item::after{
     border: none;
   }
+   .consec .sum {
+    display: none;
+  }
+  .section-nav {
+    background: #fff;
+}
+nav.navbar.navbar-expand-lg.sticky-top{
+  background-color: #fff !important;
+}
+  .navbar-toggler{
+    position: absolute;
+    top: -80px;
+  }
+  .consec1 .bg-light{
+    background-color: #ff7e00!important;
+  }
+  li.nav-item:hover{
+    color: #37a4dd !important;
+  }
+  a.nav-link{
+    color: #ff7e00!important;
+  }
   }
   @media only screen and (max-width: 1125px) {
     a.nav-link{
@@ -929,4 +951,39 @@ background: #37a4dd;
     }
     .zodiac-sign .col-md-2.col-sm-3.col-lg-1.col-4 {
     padding-right: 80px;
+}
+@media only screen and (max-width: 1125px){
+  .all-services .row {
+    margin: 0px 30px;
+}
+}
+@media only screen and (max-width: 768px){
+  
+    .font-icon{
+      float: none;
+      padding-left: 0;
+
+    }
+    .font-data{
+      padding-left: 0;
+    }
+    a.logo-brand{
+      font-size: 24px;
+      left: 0;
+    }
+  }
+@media only screen and (max-width: 576px){
+  .col-sm-3.pb-10{
+    padding-bottom: 15px;
+  }
+  a.logo-brand{
+    font-size: 30px;
+      left: 10px;
+  }
+  .font-icon{
+      float: left;
+    }
+    .font-data{
+      padding-left: 64px;
+    }
 }
