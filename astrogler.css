@@ -415,7 +415,7 @@ left: -4px;
 .zodiac-sign {
 background: #f9f9f9;
 padding: 65px 0px;
-background-image: url(./Images/sign_bg.jpg);
+background-image: url(./sign_bg.jpg);
 background-position: center 0;
 background-size: contain;
 }
@@ -693,7 +693,7 @@ padding: 0 !important;
 }
 .section-count{
 background-position: center;
-background-image: url(./Images/why-choose-us-bg.jpg);
+background-image: url(./why-choose-us-bg.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 }
