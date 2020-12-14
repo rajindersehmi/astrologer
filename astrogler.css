@@ -926,14 +926,17 @@ background: #37a4dd;
   }
   .section-nav {
     background: #fff;
-    
+  margin-top: -13px;   
+}
+.header-section .consec{
+  padding-bottom: 0;
 }
 nav.navbar.navbar-expand-lg.sticky-top{
   background-color: #fff !important;
 }
   .navbar-toggler{
     position: absolute;
-    top: -80px;
+    top: -50px;
   }
   .consec1 .bg-light{
     background-color: #ff7e00!important;
