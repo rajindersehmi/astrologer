@@ -926,7 +926,7 @@ background: #37a4dd;
   }
   .section-nav {
     background: #fff;
-    padding-bottom: 20px;
+    
 }
 nav.navbar.navbar-expand-lg.sticky-top{
   background-color: #fff !important;
@@ -943,6 +943,9 @@ nav.navbar.navbar-expand-lg.sticky-top{
   }
   a.nav-link{
     color: #ff7e00!important;
+  }
+  .li-nav1{
+    padding-bottom: 20px;
   }
   }
   @media only screen and (max-width: 1125px) {
