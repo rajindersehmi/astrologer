@@ -714,7 +714,7 @@ font-weight: bold;
 font-size: 22px;
 }
 .section-overlay{
-background-image: url(./Images/section-overlay.jpg);
+background-image: url(./section-overlay.jpg);
 padding: 100px 0px;
 background-size: cover;
 background-repeat: no-repeat;
@@ -855,7 +855,7 @@ background: #37a4dd;
   left: 90%;
 }
 .navbar .navbar-toggler-icon{
-  background-image: url(./Images/nav-toggle.svg);
+  background-image: url(./nav-toggle.svg);
 }
 .zodiac-sign .sign-all{
   margin-bottom: 10px;
