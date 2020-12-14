@@ -17,7 +17,7 @@ padding-top: 20px;
 padding-bottom: 15px;
 }
 .section-nav {
-background: #ff7e00;
+  background: #ff7e00;
 }
 a.logo-brand {
 color: #ff7e00;
@@ -68,6 +68,7 @@ position: relative;
 top: 10px;
 }
 .font-data {
+
 padding-top: 7px;
 padding-left: 64px;
 }
@@ -445,7 +446,7 @@ color: black !important;
 .footer-wrapper {
 background-color: #151515;
 padding-top: 60px;
-padding-bottom: 61px;
+
 color: #fff;
 }
 .footer-content {
@@ -847,79 +848,85 @@ background: #37a4dd;
 -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,.5);
 }
 .section-services .col-lg-4.col-sm-12.col-md-6 {
-padding-bottom: 9px;
+    padding-bottom: 9px;
 }
 .navbar-toggler{
-position: relative;
-left: 90%;
+  position: relative;
+  left: 90%;
 }
 .navbar .navbar-toggler-icon{
-background-image: url(./Images/nav-toggle.svg);
+  background-image: url(./Images/nav-toggle.svg);
 }
 .zodiac-sign .sign-all{
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .section-award .col-sm-12.col-md-6.col-lg-4{
-padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .section-footer .col-lg-4.col-md-12.col-sm-12 {
-padding-bottom: 20px !important;
+    padding-bottom: 20px !important;
 }
+
 .carousel-control-next, .carousel-control-prev{
-opacity: 1 !important;
+  opacity: 1 !important;
 }
 .home_slider_wrapper .carousel span i {
-background-color: #ff7e00;
-width: 36px;
-padding: 10px;
-border-radius: 50%;
-color: #fff;
+    background-color: #ff7e00;
+    width: 36px;
+    padding: 10px;
+   
+    border-radius: 50%;
+    color: #fff;
 }
+
 @media (max-width: 900px){
-.section-count h5.con1{
-font-size: 16px;
-margin-bottom: 0;
-}
+  .section-count h5.con1{
+    font-size: 16px;
+    margin-bottom: 0;
+  }
 }
 @media only screen and (max-width: 992px){
-.footer-services::before{
-border: none;
-}
-.footer-services::after{
-border: none;
-}
+  .footer-services::before{
+    border: none;
+  }
+  .footer-services::after{
+    border: none;
+  }
 }
 @media  (min-width: 992px){
-.footer-services::before{
-height: 474px;
-}
-.footer-services::after{
-height: 474px;
-}
+  .footer-services::before{
+    height: 413px;
+  }
+  .footer-services::after{
+    height: 413px;
+  }
 }
 @media  (min-width: 1200px){
-.footer-services::before{
-height: 426px;
-}
-.footer-services::after{
-height: 426px;
-}
+  .footer-services::before{
+    height: 365px;
+  }
+  .footer-services::after{
+    height: 365px;
+  }
 }
 @media only screen and (max-width: 991px){
-.latest-news .news-wrapper .content{
-padding: 15px;
-}
+  .latest-news .news-wrapper .content{
+    padding: 15px;
+  }
 }
 .footer-services{
-margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 @media only screen and (max-width: 991px){
-li.nav-item::after{
-border: none;
-}
-}
-@media only screen and (max-width: 1125px) {
-a.nav-link{
-margin-left: 0;
-}
+  li.nav-item::after{
+    border: none;
+  }
+  }
+  @media only screen and (max-width: 1125px) {
+    a.nav-link{
+      margin-left: 0;
+    }
+    }
+    .zodiac-sign .col-md-2.col-sm-3.col-lg-1.col-4 {
+    padding-right: 80px;
 }
